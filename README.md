@@ -7,8 +7,11 @@ spare time and I did not pay to much attention to format nor documentation
 There is expample command on the source level. But the 2 main functions are:
 
 ***from pro800_tools import***
+
 ***sysex2csv_conv(in_file_name, csv_file_name)***
+
 ***csv2sysex_conv(csv_file_name, conv_file_name)***
+
 
 ## Preset Version note
 The current sysex2csv_conv function, reads the preset version and udpates all presets to version 111.
