@@ -4,9 +4,11 @@ This is a really symply python module that convertes SYSEX files into CSV and vi
 spare time and I did not pay to much attention to format nor documentation
 
 ## Usage
-There is expample command on the source level. But the 2 main functions are:
+There is expample command on the source level. The command is used as follow:
 
-***from pro800_tools import***
+***python3 sysex_conv.py PRO800_Factory_Presets_Dump.syx***
+
+### The 2 main functions are:
 
 ***sysex2csv_conv(in_file_name, csv_file_name)***
 
