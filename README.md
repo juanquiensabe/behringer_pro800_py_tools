@@ -15,7 +15,7 @@ There is expample command on the source level. The command is used as follow:
 ***csv2sysex_conv(csv_file_name, conv_file_name)***
 
 
-## Preset Version note
+## Preset Version Note
 The current sysex2csv_conv function, reads the preset version and udpates all presets to version 111.
 It also applies the offset correction to the LFO Amount that was introduced inversion 1.3.7, for older presets.
 
